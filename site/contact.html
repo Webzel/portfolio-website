@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Nicholas Wetzel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html">
+                <img class="logo" src="images/webzel-logo-light-x1.png" alt="Webzel">
+            </a>
+            <div class="header-right">
+                <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </nav>
+
+                <button class="theme-toggle"
+                        id="themeToggle"
+                        type="button"
+                        aria-pressed="false">
+                        Light Mode
+                </button>
+
+                <button class="nav-toggle"
+                        id="navToggle"
+                        type="button"
+                        aria-label="Toggle navigation"
+                        aria-expanded="false"
+                        aria-controls="siteNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-intro">
+            <div class="wrap">
+                <span class="eyebrow">Get In Touch</span>
+                <h1>Contact</h1>
+            </div>
+        </section>
+        <hr class="line-rule">
+
+        <section class="contact-content">
+            <div class="wrap">
+                <div class="contact-grid">
+
+                    <section class="contact-direct">
+                        <h3>Direct</h3>
+
+                        <p>
+                            Email:
+                            <a href="mailto:nicholaswetzel.cis@gmail.com">
+                                nicholaswetzel.cis@gmail.com
+                            </a>
+                        </p>
+
+                        <p>Phone: 937-361-9365</p>
+
+                        <p>Based in the Dayton, OH area</p>
+
+                        <p>
+                            <a href="https://github.com/Webzel"
+                               target="_blank"
+                               rel="noopener">
+                                GitHub &rarr;
+                            </a>
+                        </p>
+                    </section>
+
+                    <section class="contact-form-section">
+                        <form class="contact-form" id="contactForm" method="post">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="message">Message</label>
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      required></textarea>
+
+                            <button type="submit" class="btn primary">
+                                Send Message
+                            </button>
+
+                            <p id="form-status"
+                               class="form-status"
+                               role="status"
+                               aria-live="polite"></p>
+                        </form>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; 2026 Nicholas Wetzel</p>
+            <div class="footer-links">
+                <a href="mailto:nicholaswetzel.cis@gmail.com">Email</a>
+                <a href="https://github.com/Webzel"
+                   target="_blank"
+                   rel="noopener">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

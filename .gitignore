@@ -1,0 +1,27 @@
+# Visual Studio
+
+.vs/
+
+#VS Code
+
+.vscode/
+
+#Operating System Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary/Backup Files
+
+*.tmp
+*.temp 
+*.bak
+*~
+
+
+# Local Environment/Secrets
+
+.env 
+.env.*
+!.env.example
